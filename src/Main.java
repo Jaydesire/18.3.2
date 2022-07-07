@@ -2,7 +2,6 @@ import java.math.BigDecimal;
 import java.util.concurrent.atomic.AtomicReference;
 
 public class Main {
-
     public static AtomicReference<BigDecimal> totalRevenue = new AtomicReference<>();
     public static void main(String[] args) {
         totalRevenue.set(new BigDecimal(0));

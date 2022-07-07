@@ -1,7 +1,5 @@
 import java.math.BigDecimal;
 import java.math.RoundingMode;
-import java.util.concurrent.locks.Lock;
-import java.util.function.BinaryOperator;
 
 public class Shop extends Thread {
     public ThreadLocal<BigDecimal> calculateRevenue() {
